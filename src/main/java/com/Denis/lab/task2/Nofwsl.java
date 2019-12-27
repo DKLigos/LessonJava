@@ -1,6 +1,7 @@
 package com.Denis.lab.task2;
 
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class Nofwsl {
@@ -22,6 +23,12 @@ public class Nofwsl {
         for (String word : wordToCount.keySet())
         {
             System.out.println(word + " " + wordToCount.get(word));
+            System.out.println(wordToCount);
         }
+
     }
+
+
 }
+
+
